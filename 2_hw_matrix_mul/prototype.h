@@ -1,0 +1,11 @@
+double Matr_mul_kij(double * A, double * B, double * C, int N);
+double Matr_mul_jik(double * A, double * B, double * C, int N);
+double Matr_mul_ijk(double * A, double * B, double * C, int N);
+double Matr_vec_mul_ij(double * A, double * B, double * C, int N);
+double Matr_mul_ji(double * A, double * B, double * C, int N);
+double func(int i, int j);
+double func_1_arg(int i);
+void init_matrix(double *A, int N);
+void zero_matrix(double *A, int N);
+void init_vector(double *A, int N);
+void zero_vector(double *A, int N);
